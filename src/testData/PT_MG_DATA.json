@@ -1,0 +1,2649 @@
+{
+	"mortgage": {
+		"products": [{
+			"id": "ABCA0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 2.0,
+				"loanTenureMax": 45.0,
+				"fixedRate": 1.25,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Abanca - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Produto com spread mais agravado nos primeiros 24 meses",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito que se destina à aquisição, construção, beneficiação, recuperação ou ampliação de habitação permanente, secundária ou para arrendamento",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos entre 2 e 45 anos, desde que a idade de todos os titulares no fim do empréstimo não exceda os 75 anos",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes até 80% do menor valor de avaliação ou aquisição/ construção",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "O spread nos primeiros 24 meses é acrescido de 0,25%, sendo o spread base de 2,5% que poderá ser reduzido ao subscrever a outros produtos do banco",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Domiciliando o seu ordenado, reduz o seu spread: se ordenado individual ≥ 2.500€ ou ordenado do agregado ≥ 3.500€, então redução de -0,4%, para as demais situações redução de 0,2%",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Ao aderir aos seguros de vida, multirriscos ou de proteção ao crédito da Abanca, o seu spread reduz em 0,2% para cada um dos produtos associados",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [{
+					"descKey": "ELECTRONIC_INVOICE",
+					"description": "50",
+					"additionalInfo": null
+				},
+				{
+					"descKey": "POST_INVOICE",
+					"description": "250",
+					"additionalInfo": null
+				}],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 0.0,
+				"startUpFees": [{
+					"value": 500.0
+				},
+				{
+					"value": 210.0
+				},
+				{
+					"value": 0.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488766976044,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "ABCA"
+		},
+		{
+			"id": "BAPA0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 25000.0,
+				"loanTenureMin": 1.0,
+				"loanTenureMax": 30.0,
+				"fixedRate": 3.5,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Banco Atlântico Privado - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Banco 100% Digital que lhe oferece até 70% do valor de avaliação",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos de 1 até 30 anos (desde que a idade dos titulares não exceda os 75 anos no fim do contrato)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes de 50.000€ a 2.500.000€, caso o valor do empréstimo não exceda 70% do valor da avaliação",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spread desde 3,5% até 7,5%, dependendo do risco da operação, estando indexada à Euribor a 12 meses",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [{
+					"descKey": "POST_INVOICE",
+					"description": "50",
+					"additionalInfo": null
+				}],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 2.0,
+				"startUpFees": [{
+					"value": 300.0
+				},
+				{
+					"value": 250.0
+				},
+				{
+					"value": 125.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767023616,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BAPA"
+		},
+		{
+			"id": "BBIC0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 4.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.65,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Banco BIC - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Obtenha financiamento até 90% do valor de avaliação do imóvel",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito que se destina para a compra ou construção de habitação própria permanente",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes de 10.000€ até 90% do valor de avaliação, com o limite máximo de 100% do valor do investimento",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazo em função da idade do proponente, sendo que a idade dos proponentes não pode exceder os 75 anos no termo do empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Redução de 75% da comissão de processo, quando associado a protocolo premium",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Redução de 50% na comissão de processo para Clientes com Conta BIC Mais, ou com Conta BIC Sénior ou subscritores de protocolo standard",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": null,
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": null,
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": null,
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [{
+					"descKey": "ELECTRONIC_INVOICE",
+					"description": "50",
+					"additionalInfo": null
+				},
+				{
+					"descKey": "POST_INVOICE",
+					"description": "100",
+					"additionalInfo": null
+				}],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 1.5,
+				"startUpFees": [{
+					"value": 260.0
+				},
+				{
+					"value": 200.0
+				},
+				{
+					"value": 120.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"90\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767029701,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BBIC"
+		},
+		{
+			"id": "BBPi",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 4.0,
+				"loanTenureMax": 50.0,
+				"fixedRate": 1.95,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "BPI - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Acesso a crédito adicional sem finalidade a preço acessível",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Pague prestações constantes que só se alteram em função da taxa de juro de mercado",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 30.000€ até 80% do valor da avaliação",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos até 50 anos (desde que no final do empréstimo, a idade de todos os titulares seja inferior a 75 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spreads de 1,95% até 4,75%, dependendo da análise de risco do banco",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de acesso a crédito adicional para qualquer finalidade, com uma taxa mais atrativa do que as opções de crédito pessoal existentes no mercado",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Solução especial para compra de casa em construção: pague apenas os juros afetos ao empréstimo durante o período de adiantamento",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": null,
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": null,
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": null,
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 0.0,
+				"startUpFees": [{
+					"value": 280.0
+				},
+				{
+					"value": 220.0
+				},
+				{
+					"value": 0.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767035462,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BBPI"
+		},
+		{
+			"id": "BCGD0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 5000.0,
+				"loanTenureMin": 1.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.75,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "CGD - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Possibilidade de fixar a taxa nos primeiros 7 anos do empréstimo",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito destinado para a compra, construção ou realização de obras na habitação própria permanente ou secundária",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos até 40 anos (desde que no final do empréstimo, a idade de todos os titulares seja inferior a 80 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 5.000€ até 80% do valor da avaliação ou do valor de aquisição (considera-se o valor mais baixo dos dois)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de obter uma taxa fixa nos primeiros 7 anos do empréstimo, ficando com taxa indexada à EURIBOR no restante período do empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Bonificação do spread para clientes com cartão de débito e de crédito, com ordenado domiciliado e que tenham aderido à Caixadirecta (Pack Cliente Mais)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Reduza o seu spread, ao subscrever aos seguros de vida e de multirriscos, junto do banco (Pack Ligação)",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [{
+					"descKey": "ELECTRONIC_INVOICE",
+					"description": "48.08",
+					"additionalInfo": null
+				},
+				{
+					"descKey": "POST_INVOICE",
+					"description": "115",
+					"additionalInfo": null
+				}],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 2.5,
+				"startUpFees": [{
+					"value": 285.0
+				},
+				{
+					"value": 230.0
+				},
+				{
+					"value": 200.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767046680,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BCGD"
+		},
+		{
+			"id": "BCTT",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 40000.0,
+				"loanTenureMin": 10.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.75,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Banco CTT - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Obtenha um spread de 1,75% ao subscrever a produtos do banco",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Oferta simples e competitiva, com processo simples, com apoio de um Especialista",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos dos 10 aos 40 anos, desde que a idade de todos os titulares não exceda os 75 anos no final do empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde os 40.000 até 80% do valor da avaliação do imóvel",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spread de 1,75% para clientes com ordenado domiciliado e que subscrevam aos seguros de vida e multirrisco",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Nos restantes casos aplica-se um spread Base de 3%",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 2.0,
+				"startUpFees": [{
+					"value": 260.0
+				},
+				{
+					"value": 200.0
+				},
+				{
+					"value": 100.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767057045,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BCTT"
+		},
+		{
+			"id": "BEST0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 25000.0,
+				"loanTenureMin": 1.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.75,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Banco Best - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Possibilidade de reduzir spread, ao subscrever produtos do banco",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 10.000€ até 80% do valor da avaliação, com prazos até 40 anos",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spreads desde 1,75% até 5,8%, indexados à EURIBOR a 12 meses",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de adiantamento para sinal",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de reduzir spread, ao domiciliar o seu ordenado, obter cartão de débito e seguros associados ao empréstimo, assim como, ter saldo médio trimestral de poupanças superior ou igual a 2.500€",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissões iniciais de Estudo de Processo, de Avaliação, de Formalização e de Vistoria obrigatórios e incluidos no valor do empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissão de processamento da prestação no valor de 2,15€, acrescida de Imposto de Selo",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [{
+					"descKey": "POST_INVOICE",
+					"description": "190",
+					"additionalInfo": null
+				},
+				{
+					"descKey": "ELECTRONIC_INVOICE",
+					"description": "150",
+					"additionalInfo": null
+				}],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 2.15,
+				"startUpFees": [{
+					"value": 160.0
+				},
+				{
+					"value": 310.0
+				},
+				{
+					"value": 150.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488832460338,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BEST"
+		},
+		{
+			"id": "BMTP0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 5000.0,
+				"loanTenureMin": 5.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.55,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Montepio - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Obtenha financiamento até 80% do valor da avaliação do imóvel",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "O Crédito Habitação que lhe permite comprar a sua habitação própria e que acompanha a evolução das taxas de mercado",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos até 40 anos (desde que no final do empréstimo, a idade de todos os titulares seja inferior a 80 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 5.000€ até 80% do valor da avaliação ou do valor de aquisição (considera-se o mais baixo dos dois)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spreads de 1,55% até 3,5% (dependendo da análise de risco do banco), indexado à EURIBOR a 12 meses",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissões de Dossier, Avaliação e Formalização encontram-se englobadas no valor do empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissão de processamento de prestação no valor de 3,75€, acrescida de Imposto de Selo",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 3.75,
+				"startUpFees": [{
+					"value": 280.0
+				},
+				{
+					"value": 210.0
+				},
+				{
+					"value": 190.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767078796,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BMTP"
+		},
+		{
+			"id": "BNKR",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 25000.0,
+				"loanTenureMin": 2.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.25,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Bankinter - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Obtenha financiamento até 80% do valor da avaliação do imóvel",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Empréstimo que se destina à aquisição e construção de imóveis, assim como, para a transferência de crédito",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 20.000€ até 80% do valor da avaliação do imóvel",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos até 40 anos, com limite de idade de 75 anos para todos os titulares no final do empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spreads competitivos de 1,25% a 3,7% (dependendo da análise de risco do banco), indexado à EURIBOR a 12 meses",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Amortização de capital desde o inicio do empréstimo, permitindo uma maior celeridade na amortização do seu empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissões de Estudo do Crédito Habitação, de Avaliação e de Formalização incluídas no valor do empréstimo",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 0.0,
+				"startUpFees": [{
+					"value": 280.0
+				},
+				{
+					"value": 230.0
+				},
+				{
+					"value": 120.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488840373354,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": null,
+			"specificApplicationFormUrl": null,
+			"providerId": "BNKR"
+		},
+		{
+			"id": "BPOP",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 5000.0,
+				"loanTenureMin": 5.0,
+				"loanTenureMax": 50.0,
+				"fixedRate": 1.75,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Banco Popular - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Reduza o seu spread ao subscrever a outros produtos do banco",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito que se destina à aquisição de habitação própria permanente e a garantir a entrada na casa que tanto deseja",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 5.000€ até 80% do valor da avaliação e prazos de 5 a 50 anos",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spreads de 1,75% até 3,5%, indexado à Euribor a 12 meses (caso esta seja negativa, considera-se 0%)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "No Crédito Habitação Popular o spread varia em função do montante do empréstimo e da relação financiamento/garantia e pode ser sujeito a bonificações especiais mediante a adesão a packs especiais de oferta Popular",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Packs estes que incluem a subscrição dos seguros associados ao empréstimo ou subscrição de Conta Ordenado, domiciliação de pelo menos dois pagamentos periódicos e subscrição dos cartões de débito e crédito",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissão de processamento da prestação no valor de 1,65€, acrescida de Imposto de Selo",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 3.05,
+				"startUpFees": [{
+					"value": 200.0
+				},
+				{
+					"value": 200.0
+				},
+				{
+					"value": 0.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767117897,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 0.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "BPOP"
+		},
+		{
+			"id": "BUCI0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 7.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.75,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "UCI - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Possibilidade de obter financiamento até 100% do valor de compra",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito que se destina à aquisição de habitação própria premanente",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 12.500€até 100% do valor de compra do imóvel, em função do perfil de cliente e das garantias apresentadas",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos de 7 a 40 anos (desde que no final do empréstimo, a idade de todos os titulares seja inferior a 75 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spreads de 1,75% até 3% (dependente da análise de risco da UCI) indexados à EURIBOR a 6 meses",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Comissões de Dossier, de Avaliação e de Formalização incluídas no montante do empréstimo",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 1.5,
+				"startUpFees": [{
+					"value": 1500.0
+				},
+				{
+					"value": 2125.0
+				},
+				{
+					"value": 400.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"100\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767124932,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 6.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "UNCI"
+		},
+		{
+			"id": "CCAM0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 2500.0,
+				"loanTenureMin": 1.0,
+				"loanTenureMax": 50.0,
+				"fixedRate": 1.6,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Credito Agricola - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Ofertas especiais para jovens com menos de 31 anos",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito destinado para a aquisição, construção, recuperação ou ampliação da habitação própria permanente ou secundária, assim como, para arrendamento",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos de 5 até 50 anos (desde que no final do empréstimo, a idade de todos os titulares seja inferior a 80 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes desde 2.500€ até 80% do valor da avaliação, podendo este corresponder a 100% do valor de aquisição",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spread mais competitivo para jovens com idade inferior ou igual a 30",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Bonificação do spread para clientes que sejam associados e clientes há mais de 5 anos, com domicialição de ordenado e pagamento de despesas periódicas (Pack Cliente: -0,15%)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Adicionalmente, desfrute de bonificação do spread aderindo ao Pack Aplicações Financeira (Depósitos a Prazo e Poupanças) ou ao Pack Seguros (Seguros de Vida e Seguro Multirisco) - bonificação de 0,15% para cada um dos packs",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 1.8,
+				"startUpFees": [{
+					"value": 230.0
+				},
+				{
+					"value": 195.0
+				},
+				{
+					"value": 0.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767130561,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "CCAM"
+		},
+		{
+			"id": "DEUT0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 10.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 2.3,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Deutsche Bank - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Aproveite uma taxa fixa de 1% durante 1 ano",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito que visa o financiamento da aquisição, construção e realização de obras de conservação da habitação própria permanente",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prazos de 10 até 40 anos (desde que no final do empréstimo, a idade de todos os titulares seja inferior a 75 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes até 80% do valor da avaliação",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Durante os primeiros 12 meses do empréstimo tem uma taxa fixa de 1%",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "No restante período do empréstimo, a taxa é de 2,3% acrescida de EURIBOR a 12 meses",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de Carência de Capital até 36 meses ou poderá optar por Valor Residual até 35%",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 2.0,
+				"startUpFees": [{
+					"value": 390.0
+				},
+				{
+					"value": 250.0
+				},
+				{
+					"value": 200.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767137811,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "DEUT"
+		},
+		{
+			"id": "MBCP0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 4.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.5,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Millennium BCP - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Bonificação do spread para jovens até os 33 anos",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Empréstimo que visa a aquisição, transferência, construção e obras",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Prestações constantes de capital e juros desde o início do empréstimo, com spread de 1,5% até 4,25% indexado à Euribor a 12 meses",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montante máximo de 80% do valor da avaliação e prazos até 40 anos (desde que a idade de todos os titulares no fim do empréstimo seja inferior a 75 anos)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Condições especiais de bonificação do spread para jovens com idades inferiores a 33 anos",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de reduzir spread, ao subscrever a pocotes de produtos do banco",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Nomeadamente, subscrição dos seguros associados ao crédito, utilização superior a 600€ por semestre e domicialiação do ordenado com valor igual ou superior a 2.000€ ou cartão de crédito com utilização mínima de 3.000€ no semestre",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [{
+					"descKey": "START_UP",
+					"description": "120",
+					"additionalInfo": null
+				},
+				{
+					"descKey": "CREDIT_TAX",
+					"description": "50",
+					"additionalInfo": null
+				}],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 1.6,
+				"startUpFees": [{
+					"value": 290.0
+				},
+				{
+					"value": 222.0
+				},
+				{
+					"value": 115.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488832781654,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "MBCP"
+		},
+		{
+			"id": "NVBC0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2000000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 1.0,
+				"loanTenureMax": 40.0,
+				"fixedRate": 1.75,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Novo Banco - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Dedução do spread de 0,1% para jovens com menos de 34 anos",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "Crédito que visa o financiamento da aquisição, obras ou construção de habitação própria permanente, secundária ou arrendamento",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes até 80% do valor do imóvel, não podendo exceder o valor da escritura e com prazos até aos 40 anos (desde que a idade dos titulares não ultrapasse os 75 anos no final do empréstimo)",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Obtenha uma rápida resposta relativamente à aprovação comercial do seu crédito",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Possibilidade de acompanhar todos os passos do processo de crédito através do NBnet",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Jovens com idade inferior ou igual a 35 anos beneficiam de um desconto direto de 0,1% na grelha de spreads",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Reduza o seu spread ao subscrever aos seguintes produtos: Conta Ordenado, Seguro de Vida, Seguro Casa, Poupanças Trimestrais => 2.500€ e/ou Saldo Médio Trimestral de Recursos => 30.000€",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 3.5,
+				"startUpFees": [{
+					"value": 320.0
+				},
+				{
+					"value": 310.0
+				},
+				{
+					"value": 150.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"80\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767148769,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "NVBC"
+		},
+		{
+			"id": "SDTT0001",
+			"isActive": true,
+			"showDesktopApplyButton": false,
+			"showMobileApplyButton": false,
+			"showTabletApplyButton": false,
+			"showCTALeadCapture": false,
+			"bannerType": "EXCLUSIVE",
+			"promotionDiscount": null,
+			"cashRebateRateMax": null,
+			"categories": [{
+				"isFeatured": false,
+				"featuredRank": null,
+				"categoryType": "all"
+			}],
+			"rateType": "FIXED",
+			"interests": [{
+				"loanAmountMax": 2500000.0,
+				"loanAmountMin": 10000.0,
+				"loanTenureMin": 4.0,
+				"loanTenureMax": 50.0,
+				"fixedRate": 1.5,
+				"primeRate": null,
+				"hiborRate": null,
+				"mortgageRate": null
+			}],
+			"highInterests": [],
+			"mediumInterests": [],
+			"lowInterests": [],
+			"locales": [{
+				"localeName": "pt-PT",
+				"productName": "Santander Totta - Taxa Variável",
+				"productLink": null,
+				"funnelProductLink": null,
+				"productLinkMobile": null,
+				"funnelProductLinkMobile": null,
+				"productLinkTablet": null,
+				"funnelProductLinkTablet": null,
+				"bannerDesc": "Clientes Mundo 123: taxa promocional durante 6 meses",
+				"footerDesc": "Oferta apresentada com base na maior bonificação possível do spread",
+				"widgetHasOfferId": null,
+				"widgetHasOfferLinkId": null,
+				"bestDesc": null,
+				"doubleClickDesktopAdId": null,
+				"doubleClickMobileAdId": null,
+				"doubleClickTabletAdId": null,
+				"primeTag": null,
+				"hiborTag": null,
+				"promoContent": null,
+				"cashRebateMaxTag": null,
+				"keyFeatures": [{
+					"type": null,
+					"isNegative": false,
+					"description": "O Crédito Habitação que lhe permite comprar a sua habitação própria e acompanha a evolução das taxas de mercado",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Montantes até 85% do valor da avaliação do imóvel e prazos até 50 anos com limite de 75 anos de idade dos titulares no final do prazo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Spread base de 4,2% podendo ser reduzido até um mínimo de 1,5%, ao subscrever a pelo menos 3 dos seguintes produtos:",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Domiciliação de pagamentos por débito direto; Cartão de crédito (min 100€/ mês); Crédito ao consumo (=> 1.000€); Saldo trimestral de poupanças => 1.000€; Depósitos de entregas programadas com saldo mínimo =>1.000€; Seguro associado ao empréstimo",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Anualmente a taxa de juro é revista, sendo verificado o cumprimento das condições referidas, para determinação do spread a aplicar no período seguinte não pode registar incumprimento das responsabilidades assumidas perante o Banco",
+					"additionalInfo": null
+				},
+				{
+					"type": null,
+					"isNegative": false,
+					"description": "Por ser Cliente do Mundo 123 têm uma taxa promocional de 1,23% nos primeiros 6 meses",
+					"additionalInfo": null
+				}],
+				"aprs": [],
+				"fees": [],
+				"insurances": []
+			}],
+			"fee": {
+				"monthlyFee": 2.6,
+				"startUpFees": [{
+					"value": 280.0
+				},
+				{
+					"value": 230.0
+				},
+				{
+					"value": 130.0
+				}]
+			},
+			"minimumRequirements": [{
+				"name": "borrowPercentage",
+				"value": "{\"operator\":\"AND\",\"rules\":[{\"group\":{\"operator\":\"AND\",\"rules\":[[{\"type\":\"attribute\",\"value\":\"borrowPercentage\"},{\"type\":\"operator\",\"value\":\"<=\"},{\"type\":\"value\",\"value\":\"85\"}]]}}]}",
+				"expectedResult": true
+			}],
+			"lastUpdated": 1488767154484,
+			"minReqOverride": "NONE",
+			"calculateApr": false,
+			"euriborIndexMonth": 12.0,
+			"visibilityRule": null,
+			"hasApplicationForm": true,
+			"isApplicationFormGeneric": true,
+			"specificApplicationFormUrl": null,
+			"providerId": "SDTT"
+		}],
+		"euriborInterestRates": [{
+			"indexMonth": 6.0,
+			"value": -0.244
+		},
+		{
+			"indexMonth": 12.0,
+			"value": -0.101
+		},
+		{
+			"indexMonth": 0.0,
+			"value": 0.0
+		}],
+		"healthInsurances": [{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 5.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 10.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 29.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 19.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 24.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 14.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 34.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 38.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 43.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 0.0,
+			"loanTenureMax": 5.0,
+			"value": 48.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 11.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 5.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 16.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 22.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 33.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 27.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 44.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 49.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 38.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 6.0,
+			"loanTenureMax": 10.0,
+			"value": 55.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 13.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 7.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 20.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 27.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 33.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 40.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 47.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 53.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 60.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 11.0,
+			"loanTenureMax": 15.0,
+			"value": 67.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 9.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 17.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 26.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 43.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 34.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 60.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 51.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 77.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 69.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 12.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 16.0,
+			"loanTenureMax": 20.0,
+			"value": 86.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 35.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 23.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 46.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 58.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 69.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 81.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 104.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 92.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 21.0,
+			"loanTenureMax": 25.0,
+			"value": 115.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 16.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 48.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 32.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 64.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 79.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 95.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 111.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 127.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 143.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 26.0,
+			"loanTenureMax": 30.0,
+			"value": 159.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 22.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 45.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 67.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 111.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 89.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 134.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 156.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 178.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 200.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 64.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 31.0,
+			"loanTenureMax": 35.0,
+			"value": 223.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 32.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 96.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 128.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 159.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 191.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 223.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 255.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 287.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 36.0,
+			"loanTenureMax": 40.0,
+			"value": 319.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 141.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 235.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 188.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 94.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 281.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 47.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 375.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 422.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 469.0
+		},
+		{
+			"loanAmountMax": 50000.0,
+			"loanAmountMin": 0.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 70.0
+		},
+		{
+			"loanAmountMax": 100000.0,
+			"loanAmountMin": 51000.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 139.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 41.0,
+			"loanTenureMax": 45.0,
+			"value": 328.0
+		},
+		{
+			"loanAmountMax": 300000.0,
+			"loanAmountMin": 250001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 417.0
+		},
+		{
+			"loanAmountMax": 350000.0,
+			"loanAmountMin": 300001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 487.0
+		},
+		{
+			"loanAmountMax": 200000.0,
+			"loanAmountMin": 150001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 278.0
+		},
+		{
+			"loanAmountMax": 250000.0,
+			"loanAmountMin": 200001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 348.0
+		},
+		{
+			"loanAmountMax": 400000.0,
+			"loanAmountMin": 350001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 557.0
+		},
+		{
+			"loanAmountMax": 150000.0,
+			"loanAmountMin": 100001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 209.0
+		},
+		{
+			"loanAmountMax": 5.0E16,
+			"loanAmountMin": 450001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 696.0
+		},
+		{
+			"loanAmountMax": 450000.0,
+			"loanAmountMin": 400001.0,
+			"loanTenureMin": 46.0,
+			"loanTenureMax": 50.0,
+			"value": 626.0
+		}],
+		"multiRiskInsurances": [{
+			"propertyValue": 500000.0,
+			"value": 10.0
+		},
+		{
+			"propertyValue": 1000000.0,
+			"value": 100.0
+		},
+		{
+			"propertyValue": 0.0,
+			"value": 5.0
+		}]
+	}
+}

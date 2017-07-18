@@ -1,0 +1,10 @@
+/target/
+/test-output/
+/logfile.log
+/logfile - Copy.log
+/test-output.zip
+/test-output - Copy/
+/test-output - Copy.zip
+/debug.log
+/BMP.json
+/funnel.json
