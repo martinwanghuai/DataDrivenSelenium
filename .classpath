@@ -22,6 +22,5 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Lib"/>
 	<classpathentry exported="true" kind="lib" path="driver/xeger-1.0-SNAPSHOT.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="target/test-classes"/>
 </classpath>
