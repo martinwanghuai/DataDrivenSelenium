@@ -29,7 +29,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 
-import com.beust.jcommander.internal.Lists;
+
 import com.cgg.model.AppFormConfig;
 import com.cgg.model.AppFormConfig.Route;
 import com.cgg.model.FunnelConfig;
@@ -50,6 +50,7 @@ import com.cgg.pl.category.ResultSource;
 import com.cgg.pl.funnel.RequestPayloadChecker;
 import com.cgg.pl.funnel.SimpleFunnelChecker;
 import com.google.common.collect.HashMultimap;
+import com.google.common.collect.Lists;
 
 import pages.FunnelStep;
 import pages.HomePage;

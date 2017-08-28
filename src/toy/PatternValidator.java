@@ -2,7 +2,7 @@ package toy;
 
 import java.util.List;
 
-import com.beust.jcommander.internal.Lists;
+import com.google.common.collect.Lists;
 
 public class PatternValidator {
 
