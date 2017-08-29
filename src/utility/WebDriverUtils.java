@@ -42,6 +42,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -65,7 +66,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.collections.Lists;
 
 import com.cgg.model.TestCase;
-import com.cgg.pl.category.AlfrescoSetup;
 import com.cgg.pl.funnel.RequestPayloadChecker;
 
 import net.lightbody.bmp.BrowserMobProxyServer;
@@ -378,6 +378,14 @@ public class WebDriverUtils {
 			case Chrome:
 				//Check out JS error
 				System.setProperty("webdriver.chrome.driver", Constant.USRDIR + Constant.PATH_TO_CHROME_DRIVER);
+				if(maximizeWin) {
+					if(capabilities == null) {
+						capabilities = new DesiredCapabilities();	
+					}
+					ChromeOptions options = new ChromeOptions();
+					options.addArguments("--kiosk");
+					capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+				}
 				driver = capabilities == null ? new ChromeDriver(): new ChromeDriver(capabilities);
 				break;
 			case InternetExplorer:
@@ -398,11 +406,11 @@ public class WebDriverUtils {
 					.timeouts()
 					.implicitlyWait(Constant.IMPLICITWAIT_MILLIS,
 							TimeUnit.MILLISECONDS);
-			if (maximizeWin) {
+/*			if (maximizeWin) {
 				driver.get("http://www.google.com");
 				this.maxWindow(driver);
 			}
-	
+*/	
 		}catch(Exception e){
 			
 		}
