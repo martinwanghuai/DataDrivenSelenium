@@ -105,7 +105,7 @@ public class WebDriverUtils {
 	
 	public WebDriverUtils(){
 
-		this(Constant.DEFAULT_BROWSER, true);
+		this(Constant.DEFAULT_BROWSER, false);
 	}
 	
 	public WebDriverUtils( final int width, final int height){
