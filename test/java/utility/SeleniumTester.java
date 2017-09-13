@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import utility.WebDriverUtils;
+
 public class SeleniumTester {
 
 	@Test
@@ -25,6 +27,7 @@ public class SeleniumTester {
 		
 		WebDriverUtils utils = new WebDriverUtils();
 		utils.openURL("http://dev.vlvdev.com");
+		utils.explicitWait();
 		By by = By.xpath("(//a[@title='Men'])[1]");
 		utils.clickLink(by);
 		utils.explicitWait();

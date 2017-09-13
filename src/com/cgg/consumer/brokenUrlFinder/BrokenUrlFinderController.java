@@ -120,7 +120,7 @@ public class BrokenUrlFinderController extends SimpleThreadController{
 			
 			long start = System.currentTimeMillis();
 			int threadNo = 6;
-			final int maxCount = 1000;
+			final int maxCount = 1000;//per thread
 			
 			final String startingUrl = args[0];
 			final boolean isMobile = Boolean.parseBoolean(args[1]);

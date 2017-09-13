@@ -47,9 +47,9 @@ public class DetailedURLProducer extends URLProducer {
 				this.clickEvents(driver, url);
 			}
 			
-			return simpleVisitedLinks.contains(this.getOuterHtml(driver, urls[i]));	
+			return Checker.containsUrl(simpleVisitedLinks, this.getOuterHtml(driver, urls[i]));	
 		}else{
-			return simpleVisitedLinks.contains(this.getLastUrl(toVisitLink));
+			return Checker.containsUrl(simpleVisitedLinks, this.getLastUrl(toVisitLink));
 		}
 	}
 	
@@ -170,26 +170,25 @@ public class DetailedURLProducer extends URLProducer {
 	public boolean isInterestedURLToConsume(final String url){
 
 		String lastUrl = this.getLastUrl(url);
-		return this.isUrl(lastUrl) ? Checker.isValidLinkOrAssert(lastUrl)
-				&& !lastUrl.contains("blog") && !toVisitLinks.contains(url) : true;
+		return this.isUrl(lastUrl) ? 
+				Checker.isValidLinkOrAssert(lastUrl)
+				&& !lastUrl.contains("css") && !Checker.containsUrl(toVisitLinks, lastUrl) : false;
 	}
 	
 	@Override
 	public boolean isInterestedURLToVisit(final String url, final String domainUrl){
 
 		String lastUrl = this.getLastUrl(url);
-		return this.isUrl(lastUrl) ? Checker.isValidLinkWithinSameDomain(lastUrl, domainUrl)
-				&& !lastUrl.contains("blog") && !toVisitLinks.contains(url) : true;
+		return this.isUrl(lastUrl)? Checker.isValidLinkButNotAsset(lastUrl, domainUrl)
+				&& !lastUrl.contains("css") && !Checker.containsUrl(toVisitLinks, lastUrl) : false;
 	}
-	
+
 	@Override
 	public int visitLinks(int counter) throws Exception {
 		
-		while(!Thread.interrupted() && toVisitLinks.size() > 0){
-			
+		while(!Thread.interrupted() && toVisitLinks.size() > 0 && counter < maxVisit){
 			String toVisitLink = toVisitLinks.remove();
-			
-			if(!this.isVisitedLink(toVisitLink) && counter < maxVisit){
+			if(!this.isVisitedLink(toVisitLink)){
 
 				if(this.isInterestedURLToVisit(toVisitLink, domainUrl)){
 					counter ++;
@@ -253,6 +252,9 @@ public class DetailedURLProducer extends URLProducer {
 		List<WebElement> links = driver.findElements(by);
 		for(int index = 0; index < links.size(); index ++){
 			String url = driver.getAttributeValue(by, index, contributeName);
+			/*if(url.contains("?")) {
+				url = url.substring(0, url.indexOf("?")); // remove parameters	
+			}*/
 			String UrlPath = IOUtils.toUTF8String(this.getUrlPath(currentURL, url));
 			if (this.isInterestedURLToConsume(UrlPath)
 					&& !this.isVisitedLink(UrlPath)) {

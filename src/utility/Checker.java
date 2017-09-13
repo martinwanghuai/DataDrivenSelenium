@@ -1,6 +1,7 @@
 package utility;
 
 import java.util.List;
+import java.util.concurrent.ConcurrentLinkedDeque;
 
 import org.apache.commons.collections.ListUtils;
 import org.openqa.selenium.By;
@@ -142,6 +143,17 @@ public final class Checker {
 		return isValidLink(url) || isValidAsset(url);
 	}
 	
+	
+	public static boolean containsUrl(ConcurrentLinkedDeque<String> urlList, String url) {
+		
+		for(String url_temp: urlList) {
+			if(UrlComparer.urlsMatch(url_temp, url)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
 	public static boolean isValidLink(final String url){
 		
 		return !Checker.isBlank(url) && (url.startsWith("http://") || url.startsWith("https://"));
@@ -149,8 +161,8 @@ public final class Checker {
 	
 	public static boolean isValidLinkWithinSameDomain(final String url, final String domainUrl){
 		
-		return !Checker.isBlank(url)
-				&& (withinSameDomain(url, domainUrl));
+		return Checker.isValidLink(url)
+				&& withinSameDomain(url, domainUrl);
 	}
 	
 	public static boolean isValidLinkWithinSameDomainOrAsset(final String url, final String domainUrl){
@@ -161,8 +173,8 @@ public final class Checker {
 	public static boolean isValidAsset(final String url) {
 		
 		return url.endsWith(".ico") || url.endsWith(".png") || url.endsWith(".svg")
-		|| url.endsWith(".css") || url.endsWith(".js") || url.endsWith(".jpg")  
-		|| url.contains("css?") || url.contains("js?") || url.endsWith(".image") ;
+		|| url.endsWith(".js") || url.endsWith(".jpg")  
+		|| url.contains("js?") || url.endsWith(".image") ;
 	}
 	
 	public static boolean isValidLinkButNotAsset(final String url, final String domainUrl){

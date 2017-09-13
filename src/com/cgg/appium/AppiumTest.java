@@ -13,7 +13,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class AppiumTest {
@@ -32,8 +31,8 @@ public class AppiumTest {
 		capabilities.setCapability(MobileCapabilityType.VERSION, "4.4.2");
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Emulator");
 		capabilities.setCapability(MobileCapabilityType.PLATFORM, "Android");
-		capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.android.chrome");
-		capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.google.android.apps.chrome.ChromeTabbedActivity");
+		capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, "com.android.chrome");
+		capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, "com.google.android.apps.chrome.ChromeTabbedActivity");
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 		driver.get("http://www.moneyhero.com.hk/en/");
 	}
